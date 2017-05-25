@@ -109,7 +109,30 @@ The configuration in our example is the following:
 After these steps, we should have now a callback completely configured to push data to our data bucket.
 
 ## Programming the Device
-Now it is time to program our Sigfox Device that will be sending data to our buckets. In this case, we provide examples for the [SmartEverything](http://www.smarteverything.it/) device, and the [Arduino MKRFOX1200](https://www.arduino.cc/en/Main.ArduinoBoardMKRFox1200).
+Now it is time to program our Sigfox Device that will be sending data to our buckets. In this case, we provide examples for the [SmartEverything](http://www.smarteverything.it/) device, the [Arduino MKRFOX1200](https://www.arduino.cc/en/Main.ArduinoBoardMKRFox1200), and the [Thinxtra Xkit](http://www.thinxtra.com/xkit/).
+
+### Thinxtra Xkit 
+
+Thinxtra Xkit is the perfect way to get started with Sigfox, it boasts a full suite of features and accessories to empower anyone to set up an IoT solution, even with very little hardware experience. Perfect for start-ups, design houses, universities and schools, the kit has everything you need to hit the ground running using the globally available Sigfox network. 
+
+The box includes:
+- The Thinxtra shield, with embedded sensors: temperature, pressure, light, shock and 3D accelerometer, 2 LEDs, 1 push button and 1 USB male connector (to plug to a Raspberry Pi or PC)
+- Arduino Uno R3 board clone (already plugged in the shield)
+- External 8.5 cm antenna
+- PP9 Battery holder
+
+<i>Insert Xkit Picture</i>
+
+### First Steps Guide
+
+The [Thinxtra Xkit First Steps guide](http://www.thinxtra.com/download/6115/) explains:
+- The different power configurations (power from USB male connector, Arduino board, 9V battery, ...)
+- How to register your Thinxtra Xkit to the Sigfox backend
+- How to run the Demonstration Application
+
+### Arduino Development Guide
+
+The [Thinxtra Xkit Arduino Development Guide](http://www.thinxtra.com/download/6025/) is a support documentation to help you specific applications with the Thinxtra Xkit shield and an Arduino Uno R3 board . The document describes how to setup and use the Arduino Interactive Development Environment (IDE), then how to you the firmware libraries to program the Arduino board. 
 
 ### Arduino MKRFOX1200
 
